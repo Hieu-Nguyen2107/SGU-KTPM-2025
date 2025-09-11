@@ -1,18 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int f(int x) {
-    if (x > 10) {
+int f1(int x)
+{
+    if (x > 10)
+    {
         return 2 * x;
-    } else {
+    }
+    else
+    {
         return -x;
     }
 }
 
-int main() {
-    int x ;
-    cin >> x ;
-    cout << "Test case  : " << f(x) << endl;
-    
+int main()
+{
+    int x;
+    cin >> x;
+    cout << f1(x) << endl;
+
     return 0;
 }
