@@ -1,0 +1,451 @@
+<mxfile host="Electron" modified="2025-09-15T04:24:04.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="URBqGGtwZE896zCWuEQR" version="24.2.5" type="device">
+  <diagram name="Page-1" id="Ol5c4Sb5DO4aijguOrQH">
+    <mxGraphModel dx="624" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KuDEBRB1agRe_REK2JsI-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-1" target="KuDEBRB1agRe_REK2JsI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-3" value="Login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-3" target="KuDEBRB1agRe_REK2JsI-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-5" value="Login successful ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-5" target="KuDEBRB1agRe_REK2JsI-8" edge="1">
+          <mxGeometry x="-0.5" y="-5" relative="1" as="geometry">
+            <mxPoint x="90" y="235" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-5" target="KuDEBRB1agRe_REK2JsI-10" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="215" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-8" value="Request to login again" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-8" target="KuDEBRB1agRe_REK2JsI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-10" value="Browse Product" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-10" target="KuDEBRB1agRe_REK2JsI-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-12" value="Any product found ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="385" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-12" target="KuDEBRB1agRe_REK2JsI-15" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="265" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-15" value="View Product Details" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-15" target="KuDEBRB1agRe_REK2JsI-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-17" value="In stock ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="170" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-18" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-17" target="KuDEBRB1agRe_REK2JsI-10" edge="1">
+          <mxGeometry x="-0.95" y="-10" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="600" />
+              <mxPoint x="90" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-19" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-17" target="KuDEBRB1agRe_REK2JsI-21" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="210" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-21" value="Add Product to Cart" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-21" target="KuDEBRB1agRe_REK2JsI-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-23" value="Countinue shopping" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="165" y="730" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-24" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-23" target="KuDEBRB1agRe_REK2JsI-27" edge="1">
+          <mxGeometry x="-0.3333" y="10" relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-23" target="KuDEBRB1agRe_REK2JsI-10" edge="1">
+          <mxGeometry x="-0.9259" y="-20" relative="1" as="geometry">
+            <mxPoint x="210" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="760" />
+              <mxPoint x="40" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-27" value="View summary cart" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-27" target="KuDEBRB1agRe_REK2JsI-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-29" value="Check out" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="910" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-29" target="KuDEBRB1agRe_REK2JsI-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-31" value="Payment successful" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="990" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-32" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-31" target="KuDEBRB1agRe_REK2JsI-34" edge="1">
+          <mxGeometry x="-0.6667" y="-25" relative="1" as="geometry">
+            <mxPoint x="90" y="1025" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-31" target="KuDEBRB1agRe_REK2JsI-36" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="230" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-34" value="Request to pay again" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1005" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-34" target="KuDEBRB1agRe_REK2JsI-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-36" value="Send a confirmation email" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-37" value="Rating ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-38" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-37" target="KuDEBRB1agRe_REK2JsI-43" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="345" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="1190" />
+              <mxPoint x="310" y="1355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-39" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-37" target="KuDEBRB1agRe_REK2JsI-41" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="205" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-36" target="KuDEBRB1agRe_REK2JsI-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="920" as="targetPoint" />
+            <mxPoint x="220" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-41" value="Rating product" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-41" target="KuDEBRB1agRe_REK2JsI-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-43" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="1340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-45" value="Login as Admin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="802.5" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-45" target="KuDEBRB1agRe_REK2JsI-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-47" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="847.5" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-47" target="KuDEBRB1agRe_REK2JsI-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="867.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-49" value="Login successful ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="800" y="210" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-50" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-49" target="KuDEBRB1agRe_REK2JsI-52" edge="1">
+          <mxGeometry x="-0.6" y="-10" relative="1" as="geometry">
+            <mxPoint x="997.5" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-51" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-49" target="KuDEBRB1agRe_REK2JsI-54" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="862.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-52" value="Request to login again" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="617.5" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-52" target="KuDEBRB1agRe_REK2JsI-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872.5" y="220" as="targetPoint" />
+            <mxPoint x="872.5" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-54" value="Admin Dashboard" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="802.5" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-76" target="KuDEBRB1agRe_REK2JsI-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="863" y="555" as="targetPoint" />
+            <mxPoint x="865" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="864.5" y="460" />
+              <mxPoint x="864.5" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-56" value="Manage Product" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="805" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-56" target="KuDEBRB1agRe_REK2JsI-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.5" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-58" value="Product valid ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="815" y="575" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-59" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-58" target="KuDEBRB1agRe_REK2JsI-61" edge="1">
+          <mxGeometry x="-0.8813" y="-20" relative="1" as="geometry">
+            <mxPoint x="730" y="605" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-60" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-58" target="KuDEBRB1agRe_REK2JsI-68" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="865" y="745" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-61" value="error notification" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="610" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-61" target="KuDEBRB1agRe_REK2JsI-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="695" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-63" value="Assign Product to Inventory" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="805" y="745" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-64" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-63" target="KuDEBRB1agRe_REK2JsI-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="822.24" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-65" value="Inventory exist ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="812.5" y="825" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-66" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-65" target="KuDEBRB1agRe_REK2JsI-70" edge="1">
+          <mxGeometry x="-0.5238" y="-5" relative="1" as="geometry">
+            <mxPoint x="760" y="860" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-67" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-65" target="KuDEBRB1agRe_REK2JsI-72" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="827.24" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-68" value="Save product" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="805" y="675" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-68" target="KuDEBRB1agRe_REK2JsI-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-70" value="Create new inventory" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-70" target="KuDEBRB1agRe_REK2JsI-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="945" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-72" value="Save to the inventory" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="805" y="935" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-74" value="Manage inventory" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="957.5" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-54" target="KuDEBRB1agRe_REK2JsI-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.5" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865.5" y="360" />
+              <mxPoint x="865.5" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-76" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="825" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-76" target="KuDEBRB1agRe_REK2JsI-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875.5" y="510" as="targetPoint" />
+            <mxPoint x="875.5" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="927.5" y="430" />
+              <mxPoint x="927.5" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-80" value="View/Control user cart" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-80" target="KuDEBRB1agRe_REK2JsI-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-82" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="430" as="targetPoint" />
+            <mxPoint x="915" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="760" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-83" value="Update succesful ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="970" y="500" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-84" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-83" target="KuDEBRB1agRe_REK2JsI-89" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1150" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-85" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-83" target="KuDEBRB1agRe_REK2JsI-87" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1020" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-86" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-74" target="KuDEBRB1agRe_REK2JsI-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968" y="440" as="targetPoint" />
+            <mxPoint x="915" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-87" value="Save the inventory" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="960" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-87" target="KuDEBRB1agRe_REK2JsI-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1018" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1018" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-89" value="error notification" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="515" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-89" target="KuDEBRB1agRe_REK2JsI-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="730" as="targetPoint" />
+            <mxPoint x="1028" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-94" value="Valid cart ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="520" y="402.5" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-95" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-94" target="KuDEBRB1agRe_REK2JsI-97" edge="1">
+          <mxGeometry x="-0.6027" y="10" relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-97" value="Disable cart" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="515" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-98" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-97" target="KuDEBRB1agRe_REK2JsI-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-99" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1030" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KuDEBRB1agRe_REK2JsI-72" target="KuDEBRB1agRe_REK2JsI-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="730" as="targetPoint" />
+            <mxPoint x="1028" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-101" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Buyer Activity Diagram&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-80" width="320" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="KuDEBRB1agRe_REK2JsI-102" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Admin Activity Diagram&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="702.5" y="-76" width="320" height="106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
