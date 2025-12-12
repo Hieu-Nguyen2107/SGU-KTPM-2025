@@ -154,14 +154,6 @@ cd SGU-KTPM-2025
 2. **LAB2**: Tập trung vào analysis và design
 3. **LAB3-5**: Sẽ được cập nhật trong tương lai
 
----
-
-## 📞 Liên hệ
-
-**Sinh viên:** Nguyễn Thành Đạt  
-**MSSV:** 3122411039  
-**Email:** [email]  
-**GitHub:** [Hieu-Nguyen2107](https://github.com/Hieu-Nguyen2107)
 
 ---
 
