@@ -3,11 +3,6 @@
 ## 📚 Mô tả Repository
 Repository này chứa các bài tập thực hành môn **Kỹ Thuật Phần Mềm** của Đại học Sài Gòn (SGU) năm 2025.
 
-**Sinh viên:** Nguyễn Thành Đạt  
-**MSSV:** 3122411039  
-**Lớp:** [Tên lớp]  
-
----
 
 ## 📁 Cấu trúc Repository
 
