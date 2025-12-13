@@ -130,7 +130,7 @@ Lab 2 tập trung vào việc phân tích và thiết kế hệ thống thông q
 
 ---
 
-## � HLAB 3 - UML và PlantUML
+## � LAB 3 - UML và PlantUML
 
 ### 📋 Mô tả
 Lab 3 tập trung vào việc tạo các sơ đồ UML nâng cao sử dụng cả Draw.io và PlantUML, bao gồm Class Diagram và các sơ đồ phức tạp khác.
