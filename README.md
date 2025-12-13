@@ -10,7 +10,7 @@ Repository này chứa các bài tập thực hành môn **Kỹ Thuật Phần M
 SGU-KTPM-2025/
 ├── Lab1/           # Bài tập Lab 1 - Lập trình C++
 ├── LAB2/           # Bài tập Lab 2 - Phân tích thiết kế hệ thống
-├── LAB3/           # Bài tập Lab 3 (sẽ cập nhật)
+├── LAB3/           # Bài tập Lab 3 - UML và PlantUML
 ├── LAB4/           # Bài tập Lab 4 (sẽ cập nhật)
 ├── LAB5/           # Bài tập Lab 5 (sẽ cập nhật)
 └── README.md       # File mô tả này
@@ -130,12 +130,52 @@ Lab 2 tập trung vào việc phân tích và thiết kế hệ thống thông q
 
 ---
 
+## � HLAB 3 - UML và PlantUML
+
+### 📋 Mô tả
+Lab 3 tập trung vào việc tạo các sơ đồ UML nâng cao sử dụng cả Draw.io và PlantUML, bao gồm Class Diagram và các sơ đồ phức tạp khác.
+
+### 📁 Nội dung LAB 3
+
+#### **📊 Sơ đồ Draw.io**
+- **bai4.drawio** + **bai4.png**: Sơ đồ UML bài tập 4
+- **bai5.drawio** + **bai5.png**: Sơ đồ UML bài tập 5
+
+#### **🔗 PlantUML**
+- **cau4.puml**: Mã nguồn PlantUML cho câu 4
+- **CodeDiagram.png**: Sơ đồ được tạo từ PlantUML
+
+#### **📄 Tài liệu**
+- **Bai4,5.docx**: Báo cáo bài tập 4 và 5
+- **Bai9CD.docx**: Tài liệu Class Diagram bài 9
+
+### 🎯 Kỹ năng đạt được từ LAB 3
+- ✅ Thiết kế Class Diagram nâng cao
+- ✅ Sử dụng PlantUML để tạo sơ đồ từ code
+- ✅ Tích hợp nhiều công cụ UML (Draw.io + PlantUML)
+- ✅ Phân tích và thiết kế hệ thống phức tạp
+- ✅ Tạo documentation từ sơ đồ
+
+### 🛠️ Cách sử dụng PlantUML
+```bash
+# Cài đặt PlantUML
+npm install -g node-plantuml
+
+# Tạo sơ đồ từ file .puml
+plantuml cau4.puml
+
+# Hoặc sử dụng online tại: http://www.plantuml.com/plantuml
+```
+
+---
+
 ## 🚀 Hướng dẫn sử dụng
 
 ### Yêu cầu hệ thống
 - **C++ Compiler**: GCC hoặc Visual Studio
 - **Python**: Để chạy Jupyter Notebook
 - **Draw.io**: Để xem/chỉnh sửa sơ đồ
+- **PlantUML**: Để tạo sơ đồ từ mã nguồn
 - **Microsoft Word**: Để xem tài liệu .docx
 
 ### Clone repository
@@ -147,7 +187,8 @@ cd SGU-KTPM-2025
 ### Cấu trúc làm việc
 1. **Lab1**: Tập trung vào coding và testing
 2. **LAB2**: Tập trung vào analysis và design
-3. **LAB3-5**: Sẽ được cập nhật trong tương lai
+3. **LAB3**: Tập trung vào UML nâng cao và PlantUML
+4. **LAB4-5**: Sẽ được cập nhật trong tương lai
 
 
 ---
