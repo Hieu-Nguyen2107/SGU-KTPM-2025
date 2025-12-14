@@ -11,7 +11,7 @@ SGU-KTPM-2025/
 ├── Lab1/           # Bài tập Lab 1 - Lập trình C++
 ├── LAB2/           # Bài tập Lab 2 - Phân tích thiết kế hệ thống
 ├── LAB3/           # Bài tập Lab 3 - UML và PlantUML
-├── LAB4/           # Bài tập Lab 4 (sẽ cập nhật)
+├── LAB4/           # Bài tập Lab 4 - Tài liệu và báo cáo
 ├── LAB5/           # Bài tập Lab 5 (sẽ cập nhật)
 └── README.md       # File mô tả này
 ```
@@ -169,6 +169,24 @@ plantuml cau4.puml
 
 ---
 
+## � LưAB 4 - Tài liệu và Báo cáo
+
+### 📋 Mô tả
+Lab 4 tập trung vào việc tạo tài liệu và báo cáo chi tiết cho các bài tập đã thực hiện.
+
+### 📁 Nội dung LAB 4
+
+#### **📄 Tài liệu**
+- **lab4.docx**: Báo cáo tổng hợp Lab 4
+
+### 🎯 Kỹ năng đạt được từ LAB 4
+- ✅ Tạo báo cáo kỹ thuật chuyên nghiệp
+- ✅ Tổng hợp và phân tích kết quả
+- ✅ Viết tài liệu kỹ thuật
+- ✅ Trình bày và báo cáo dự án
+
+---
+
 ## 🚀 Hướng dẫn sử dụng
 
 ### Yêu cầu hệ thống
@@ -188,7 +206,8 @@ cd SGU-KTPM-2025
 1. **Lab1**: Tập trung vào coding và testing
 2. **LAB2**: Tập trung vào analysis và design
 3. **LAB3**: Tập trung vào UML nâng cao và PlantUML
-4. **LAB4-5**: Sẽ được cập nhật trong tương lai
+4. **LAB4**: Tập trung vào documentation và reporting
+5. **LAB5**: Sẽ được cập nhật trong tương lai
 
 
 ---
