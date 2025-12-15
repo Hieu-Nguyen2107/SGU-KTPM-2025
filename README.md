@@ -12,7 +12,7 @@ SGU-KTPM-2025/
 ├── LAB2/           # Bài tập Lab 2 - Phân tích thiết kế hệ thống
 ├── LAB3/           # Bài tập Lab 3 - UML và PlantUML
 ├── LAB4/           # Bài tập Lab 4 - Tài liệu và báo cáo
-├── LAB5/           # Bài tập Lab 5 (sẽ cập nhật)
+├── LAB5/           # Bài tập Lab 5 - Trắc nghiệm và đánh giá
 └── README.md       # File mô tả này
 ```
 
@@ -187,6 +187,24 @@ Lab 4 tập trung vào việc tạo tài liệu và báo cáo chi tiết cho cá
 
 ---
 
+## � HLAB 5 - Trắc nghiệm và Đánh giá
+
+### 📋 Mô tả
+Lab 5 tập trung vào việc đánh giá kiến thức thông qua các bài trắc nghiệm và câu hỏi lý thuyết.
+
+### 📁 Nội dung LAB 5
+
+#### **📄 Tài liệu**
+- **Tracnghiem.docx**: Bài trắc nghiệm và câu hỏi đánh giá
+
+### 🎯 Kỹ năng đạt được từ LAB 5
+- ✅ Ôn tập và củng cố kiến thức lý thuyết
+- ✅ Áp dụng kiến thức vào các tình huống thực tế
+- ✅ Phân tích và giải quyết vấn đề
+- ✅ Đánh giá và tự đánh giá năng lực
+
+---
+
 ## 🚀 Hướng dẫn sử dụng
 
 ### Yêu cầu hệ thống
@@ -207,7 +225,7 @@ cd SGU-KTPM-2025
 2. **LAB2**: Tập trung vào analysis và design
 3. **LAB3**: Tập trung vào UML nâng cao và PlantUML
 4. **LAB4**: Tập trung vào documentation và reporting
-5. **LAB5**: Sẽ được cập nhật trong tương lai
+5. **LAB5**: Tập trung vào assessment và evaluation
 
 
 ---
