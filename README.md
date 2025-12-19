@@ -15,6 +15,7 @@ SGU-KTPM-2025/
 ├── LAB5/                           # Bài tập Lab 5 - Trắc nghiệm và đánh giá
 ├── BT05_KiemThuMienTuongDuong/     # Bài tập 5 - Kiểm thử miền tương đương
 ├── BT06_KiemThuHopDen2/            # Bài tập 6 - Kiểm thử hộp đen 2
+├── BT7_KiemThuQuiTrinh/            # Bài tập 7 - Kiểm thử quy trình
 └── README.md                       # File mô tả này
 ```
 
@@ -268,6 +269,32 @@ Bài tập 6 tập trung vào các kỹ thuật kiểm thử hộp đen nâng ca
 - **Business Logic Testing**: Kiểm thử logic nghiệp vụ
 - **Condition Coverage**: Độ bao phủ điều kiện
 - **Counter Sales System**: Hệ thống bán hàng tại quầy
+
+---
+
+## 🔄 BT7 - Kiểm thử Quy trình
+
+### 📋 Mô tả
+Bài tập 7 tập trung vào kiểm thử quy trình (Workflow Testing), bao gồm kiểm thử các luồng công việc, context testing và black box workflows trong hệ thống.
+
+### 📁 Nội dung BT7_KiemThuQuiTrinh
+
+#### **📊 Tài liệu thực hành**
+- **Test_Context_BlackBox_Workflows.xlsx**: Bảng tính chứa các test cases cho kiểm thử context, black box và workflows
+
+### 🎯 Kỹ năng đạt được từ BT7
+- ✅ Thiết kế test cases cho workflow testing
+- ✅ Kiểm thử context và môi trường hệ thống
+- ✅ Áp dụng black box testing cho quy trình phức tạp
+- ✅ Phân tích và kiểm thử luồng công việc
+- ✅ Tối ưu hóa test coverage cho workflows
+
+### 📚 Kiến thức chính
+- **Workflow Testing**: Kiểm thử luồng công việc
+- **Context Testing**: Kiểm thử theo ngữ cảnh
+- **Black Box Workflows**: Quy trình kiểm thử hộp đen
+- **Process Validation**: Xác thực quy trình
+- **End-to-End Testing**: Kiểm thử đầu cuối
 
 ---
 
