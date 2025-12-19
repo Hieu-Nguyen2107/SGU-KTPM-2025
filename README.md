@@ -14,6 +14,7 @@ SGU-KTPM-2025/
 ├── LAB4/                           # Bài tập Lab 4 - Tài liệu và báo cáo
 ├── LAB5/                           # Bài tập Lab 5 - Trắc nghiệm và đánh giá
 ├── BT05_KiemThuMienTuongDuong/     # Bài tập 5 - Kiểm thử miền tương đương
+├── BT06_KiemThuHopDen2/            # Bài tập 6 - Kiểm thử hộp đen 2
 └── README.md                       # File mô tả này
 ```
 
@@ -235,6 +236,38 @@ Bài tập 5 tập trung vào kỹ thuật kiểm thử miền tương đương 
 - **Boundary Value Analysis**: Kiểm thử giá trị biên
 - **Test Case Design**: Thiết kế ca kiểm thử tối ưu
 - **Black Box Testing**: Kiểm thử hộp đen
+
+---
+
+## 📊 BT06 - Kiểm thử Hộp Đen 2
+
+### 📋 Mô tả
+Bài tập 6 tập trung vào các kỹ thuật kiểm thử hộp đen nâng cao, bao gồm Decision Table Testing và các phương pháp kiểm thử logic phức tạp.
+
+### 📁 Nội dung BT06_KiemThuHopDen2
+
+#### **📋 Tài liệu chính**
+- **BT06_KiemThuHopDen2.docx**: Đề bài và yêu cầu bài tập 6
+- **GIẢI BÀI TẬP DECISION TABLE - COUNTER SALES SYSTEM.docx**: Hướng dẫn giải bài tập Decision Table
+
+#### **📄 Báo cáo cá nhân**
+- **NguyenThanhDat_3122411039.docx**: Báo cáo của Nguyễn Thành Đạt
+- **NguyenNhatHai_3122411046.docx**: Báo cáo của Nguyễn Nhật Hải
+- **NguyenThanhTrungHieu_3122411056.docx**: Báo cáo của Nguyễn Thành Trung Hiếu
+- **NguyenThanhViet_3122411245.docx**: Báo cáo của Nguyễn Thành Việt
+
+### 🎯 Kỹ năng đạt được từ BT06
+- ✅ Áp dụng Decision Table Testing
+- ✅ Phân tích logic nghiệp vụ phức tạp
+- ✅ Thiết kế test cases cho hệ thống bán hàng
+- ✅ Kiểm thử các điều kiện và quy tắc nghiệp vụ
+- ✅ Tối ưu hóa số lượng test cases
+
+### 📚 Kiến thức chính
+- **Decision Table Testing**: Bảng quyết định cho kiểm thử
+- **Business Logic Testing**: Kiểm thử logic nghiệp vụ
+- **Condition Coverage**: Độ bao phủ điều kiện
+- **Counter Sales System**: Hệ thống bán hàng tại quầy
 
 ---
 
