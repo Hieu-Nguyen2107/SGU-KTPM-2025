@@ -8,12 +8,13 @@ Repository này chứa các bài tập thực hành môn **Kỹ Thuật Phần M
 
 ```
 SGU-KTPM-2025/
-├── Lab1/           # Bài tập Lab 1 - Lập trình C++
-├── LAB2/           # Bài tập Lab 2 - Phân tích thiết kế hệ thống
-├── LAB3/           # Bài tập Lab 3 - UML và PlantUML
-├── LAB4/           # Bài tập Lab 4 - Tài liệu và báo cáo
-├── LAB5/           # Bài tập Lab 5 - Trắc nghiệm và đánh giá
-└── README.md       # File mô tả này
+├── Lab1/                           # Bài tập Lab 1 - Lập trình C++
+├── LAB2/                           # Bài tập Lab 2 - Phân tích thiết kế hệ thống
+├── LAB3/                           # Bài tập Lab 3 - UML và PlantUML
+├── LAB4/                           # Bài tập Lab 4 - Tài liệu và báo cáo
+├── LAB5/                           # Bài tập Lab 5 - Trắc nghiệm và đánh giá
+├── BT05_KiemThuMienTuongDuong/     # Bài tập 5 - Kiểm thử miền tương đương
+└── README.md                       # File mô tả này
 ```
 
 ---
@@ -202,6 +203,38 @@ Lab 5 tập trung vào việc đánh giá kiến thức thông qua các bài tr�
 - ✅ Áp dụng kiến thức vào các tình huống thực tế
 - ✅ Phân tích và giải quyết vấn đề
 - ✅ Đánh giá và tự đánh giá năng lực
+
+---
+
+## 🧪 BT05 - Kiểm thử Miền Tương đương
+
+### 📋 Mô tả
+Bài tập 5 tập trung vào kỹ thuật kiểm thử miền tương đương (Equivalence Partitioning Testing), một phương pháp kiểm thử hộp đen quan trọng trong kỹ thuật phần mềm.
+
+### 📁 Nội dung BT05_KiemThuMienTuongDuong
+
+#### **📊 Tài liệu thực hành**
+- **class-exercise.xlsx**: Bài tập thực hành trên lớp với các test cases
+- **Quá trình phân tích ktpm.docx**: Tài liệu phân tích quy trình kiểm thử
+
+#### **📄 Báo cáo cá nhân**
+- **NguyenThanhDat_3122411039.docx**: Báo cáo của Nguyễn Thành Đạt
+- **NguyenNhatHai_3122411046.docx**: Báo cáo của Nguyễn Nhật Hải  
+- **NguyenThanhTrungHieu_3122411056.docx**: Báo cáo của Nguyễn Thành Trung Hiếu
+- **NguyenThanhViet_3122411425.docx**: Báo cáo của Nguyễn Thành Việt
+
+### 🎯 Kỹ năng đạt được từ BT05
+- ✅ Hiểu và áp dụng kỹ thuật kiểm thử miền tương đương
+- ✅ Phân chia dữ liệu đầu vào thành các lớp tương đương
+- ✅ Thiết kế test cases hiệu quả cho từng miền
+- ✅ Phân tích và đánh giá độ bao phủ kiểm thử
+- ✅ Làm việc nhóm và chia sẻ kinh nghiệm kiểm thử
+
+### 📚 Kiến thức chính
+- **Equivalence Partitioning**: Chia dữ liệu thành các nhóm tương đương
+- **Boundary Value Analysis**: Kiểm thử giá trị biên
+- **Test Case Design**: Thiết kế ca kiểm thử tối ưu
+- **Black Box Testing**: Kiểm thử hộp đen
 
 ---
 
